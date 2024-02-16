@@ -1,0 +1,25 @@
+{
+  "name": "syntatic-family-tree",
+  "type": "module",
+  "version": "1.0.0",
+  "description": "Create a RDF Graph of human families.",
+  "main": "node dist/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Mark Lindeman <mark@lindeman.nu>",
+  "license": "EUPL",
+  "dependencies": {
+    "@triply/triplydb": "^7.0.1",
+    "dotenv": "^16.4.1",
+    "n3": "^1.17.2",
+    "typescript": "^5.3.3",
+    "uuid": "^9.0.1",
+    "yargs": "^17.7.2"
+  },
+  "devDependencies": {
+    "@types/n3": "^1.16.4",
+    "@types/uuid": "^9.0.8",
+    "@types/yargs": "^17.0.32"
+  }
+}
